@@ -1,0 +1,45 @@
+```markdown
+# Test Cases for Registration
+
+## TC-001: Registration via email by non-existent user
+
+**ID:** TC-001  
+**Priority:** High  
+**Module:** User Registration  
+**Preconditions:**
+1. Email address is created
+2. User is not registered in the system
+
+**Test Data:**
+- Email: test@gmail.com
+- Password: 8-20 valid characters
+
+**Test Steps:**
+1. Go to https://hotel.alwaypress.com/
+2. Click "Account" → "Register" button
+3. Choose location from dropdown
+4. Input email from test data
+5. Input valid password
+6. Click "Create account" button
+7. Open mailbox and copy verification code
+8. Paste code in verification window
+9. Click "Verify email" button
+10. Log out from system
+11. Try to login with user credentials
+
+**Expected Results:**
+1. Main page opens successfully
+2. Registration window opens
+3. Location dropdown opens, user can choose location
+4. Email displays without error message
+5. Password displays without error message, validations OK
+6. Verification code is received via email
+7. Verification window displays, Verify button is disabled until code entered
+8. Verify button becomes active after code input
+9. User successfully registered
+10. User successfully logged out
+11. User can login with created credentials
+
+**Status:** ✅ PASS / ❌ FAIL
+**Defect ID:** [Link to issue if failed]
+```

@@ -1,0 +1,31 @@
+```markdown
+# Smoke Test Cases
+
+## TC-SMOKE-001: New user mobile registration
+
+| Parameter | Value |
+|-----------|-------|
+| **ID** | TC-SMOKE-001 |
+| **Priority** | 1 (Smoke) |
+| **Requirement** | REQ1 |
+| **Module** | User Registration |
+| **Title** | Mobile phone registration |
+
+**Test Steps:**
+1. Open website on mobile device
+2. Enter phone number in "Mobile" field
+3. Wait for SMS with code
+4. Enter code in verification field
+5. Click "Registration" button
+
+**Expected Results:**
+1. Website loads successfully
+2. Phone number displays in "Mobile" field
+3. SMS code received on phone number
+4. Code displays in verification field
+5. Success registration message appears
+
+**Actual Result:** [To be filled during testing]
+**Defect:** [Link to GitHub issue if failed]
+**Status:** 🟢 PASS / 🔴 FAIL
+```
